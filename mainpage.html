@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="icon" href="images/favicon.jpg" type="image/png">
+    <style>
+        body{
+            
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }   
+        #maintitle {
+            text-align: center;
+            padding: 4px 4px 4px 4px;
+            background-color: maroon;
+            color:ivory;
+        }
+
+        #navlist{
+           text-align: right;
+            padding: 2px 2px 2px 2px;
+            background-color: rgb(48, 9, 9);
+            color:ivory;
+        }
+        #navlist a{
+            padding-right: 10px;
+            color:ivory;
+            text-decoration: none;
+        }
+        #navlist a:hover{
+            color:cadetblue;
+            text-decoration: none;
+        }
+        
+        #maincontainer {
+            padding: 20px;
+            display: flex;
+            flex-direction: column; 
+            align-items: center; 
+            background-color: rgba(201, 153, 87, 0.618);
+            min-height: 550px;
+        }
+
+        #aboutmeinfo {
+            margin-bottom: 20px;
+            width: 800px; 
+            padding-left: 15px;
+            padding-right: 15px;
+            border: 2px solid;
+            border-radius: 10px;
+            background-color: ivory;
+        }
+
+       
+
+        #footercontainer{
+            padding: 5px;
+            text-align: center;
+            background-color: maroon;
+            color: ivory;
+            height: 50px;
+        }
+        @media (max-width: 768px) { 
+    #navlist {
+        text-align: center; 
+        padding: 10px;
+    }
+
+    #maincontainer {
+        padding: 10px;
+    }
+
+    #aboutmeinfo {
+        width: 100%; 
+        padding: 10px;
+    }
+
+    #footercontainer {
+        font-size: 14px;
+        padding: 5px;
+    }
+}
+
+@media (max-width: 480px) { 
+    #maintitle h1 {
+        font-size: 20px;
+    }
+
+    #navlist h3 {
+        font-size: 16px;
+    }
+
+    #aboutmeinfo h3, #aboutmeinfo h4, #aboutmeinfo ul {
+        font-size: 14px;
+    }
+
+    #aboutmeinfo ul li {
+        padding: 5px 0; 
+    }
+}
+
+
+
+
+    </style>
+
+</head>
+<body>
+    <header>
+        <div id="maintitle">
+            <h1>MAIN PAGE</h1>
+        </div>
+
+        <div id="navlist">
+            <h3> 
+                <a href="index.html">| Home Page</a>
+                <a href="contactme.html">| Contact info </a>
+                <a href="others.html">| Others</a>
+            </h3>
+        </div> 
+    </header>
+
+    <main>
+        <div id="maincontainer">
+            <div id="aboutmeinfo">
+                <h3>ABOUT ME</h3>
+                <h4>
+                    Hi there, I am Cris Allen Oroc, currently studying Bachelor of Science in Information Technology 
+                    in Eastern Visayas State University (Ormoc City Campus) as a second year student. I aspire to learn
+                    as many skills as I can IT related and non related skills. I really like to just watch and learn 
+                    new things as life goes on. 
+
+                </h4>
+
+                <h3>
+                    TECH STACK
+                </h3>
+                <ul>
+                    <li>Python</li>
+                    <li>C</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Javascript</li>
+                </ul>
+
+                <h3>
+                   TOOLS / IDE's / Softwares
+                </h3>
+                <ul>
+                    <li>Visual Studio Code</li>
+                    <li>Pycharm</li>
+                    <li>Spyder</li>
+                    <li>Github</li>
+                   
+                </ul>
+
+                <h3>
+                    PROJECTS
+                </h3>
+                <ul>
+                    <li>POS System <a href="https://github.com/Cris-Allen/POS-System-Practice-Project-/blob/main/Dynamic%20POS%20System.zip" target="_blank">Project link</a></li>
+                </ul>
+
+                <h3>
+                    OTHER SKILLS
+                </h3>
+                <ul>
+                    <li>Video editing</li>
+                    <li>Graphic designing</li>
+                    
+                </ul>
+            </div>
+    </main>
+
+    <footer>
+        <div id="footercontainer">
+            <p>&copy; 2024 Cris Allen M. Oroc All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

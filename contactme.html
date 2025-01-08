@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Contact Page</title>
+    <link rel="icon" href="images/favicon.jpg" type="image/png">
+    <style>
+        body{
+            
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }   
+        #maintitle {
+            text-align: center;
+            padding: 4px 4px 4px 4px;
+            background-color: maroon;
+            color:ivory;
+        }
+
+        #navlist{
+           text-align: right;
+            padding: 2px 2px 2px 2px;
+            background-color: rgb(48, 9, 9);
+            color:ivory;
+        }
+        #navlist a{
+            padding-right: 10px;
+            color:ivory;
+            text-decoration: none;
+        }
+        #navlist a:hover{
+            color:cadetblue;
+            text-decoration: none;
+        }
+        
+        #maincontainer {
+            padding: 20px;
+            display: flex;
+            flex-direction: column; 
+            align-items: center; 
+            background-color: rgba(201, 153, 87, 0.618);
+            min-height: 550px;
+        }
+
+        #aboutmeinfo {
+            margin-bottom: 20px;
+            width: 800px; 
+            padding-left: 15px;
+            padding-right: 15px;
+            border: 2px solid;
+            border-radius: 10px;
+            background-color: ivory;
+        }
+
+       
+
+        #footercontainer{
+            padding: 5px;
+            text-align: center;
+            background-color: maroon;
+            color: ivory;
+            height: 50px;
+        }
+
+        @media (max-width: 768px) {
+    #navlist {
+        text-align: center; 
+        padding: 10px;
+    }
+
+    #maincontainer {
+        padding: 10px;
+    }
+
+    #aboutmeinfo {
+        width: 100%; 
+        padding: 10px;
+    }
+
+    #footercontainer {
+        font-size: 14px;
+        padding: 5px;
+    }
+}
+
+@media (max-width: 480px) { 
+    #maintitle h1 {
+        font-size: 20px; 
+    }
+
+    #navlist h3 {
+        font-size: 16px;
+    }
+
+    #aboutmeinfo h3, #aboutmeinfo h4, #aboutmeinfo ul {
+        font-size: 14px;
+    }
+
+    #aboutmeinfo ul li {
+        padding: 5px 0; 
+    }
+}
+
+    </style>
+
+</head>
+<body>
+    <header>
+        <div id="maintitle">
+            <h1>CONTACTS</h1>
+        </div>
+
+        <div id="navlist">
+            <h3> 
+                <a href="index.html">| Home Page</a>
+                <a href="mainpage.html">| Main Page </a>
+              
+            </h3>
+        </div> 
+    </header>
+
+    <main>
+        <div id="maincontainer">
+            <div id="aboutmeinfo">
+                <h3>CONTACT ME</h3>
+                <h4>You can use all the different types of ways to contact me below.</h4>
+                <h4>gmail 1: crisallen.oroc@evsu.edu.ph</h4>
+                <h4>gmail 2: cris.allen.oroc@gmail.com</h4>
+                <h4>Phone number 1 (dito): 09926046066</h4>
+                <h4>Phone number 2 (TNT): 09703237529</h4>
+                <h4>Github: <a href="https://github.com/Cris-Allen" target="_blank">https://github.com/Cris-Allen</a> </h4>
+                <h4>LinkedIn: <a href="https://www.linkedin.com/in/cris-allen-oroc-508828344/" target="_blank">https://www.linkedin.com/in/cris-allen-oroc-508828344/</a> </h4>
+                <h4>Upwork: <a href="https://www.upwork.com/freelancers/~01f7bc2b908c2f1e19" target="_blank">https://www.upwork.com/freelancers/~01f7bc2b908c2f1e19</a> </h4>
+            </div>
+    </main>
+
+    <footer>
+        <div id="footercontainer">
+            <p>&copy; 2024 Cris Allen M. Oroc All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
